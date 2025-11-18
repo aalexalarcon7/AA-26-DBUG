@@ -1,0 +1,10 @@
+body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:24px;background:#0b0b0b;color:#eaeaea}
+h1{margin:0 0 12px 0}
+.add-form{display:flex;gap:8px;margin:12px 0 18px}
+.add-form input{flex:1;padding:10px;border-radius:8px;border:1px solid #333;background:#111;color:#eaeaea}
+.add-form button{padding:10px 14px;border-radius:8px;border:1px solid #333;background:#1f7ae0;color:#fff;cursor:pointer}
+ul.todo{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+ul.todo li{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;border:1px solid #2a2a2a;border-radius:10px;background:#141414}
+ul.todo li.done span{text-decoration:line-through;opacity:.7}
+ul.todo .actions a{margin-left:10px;text-decoration:none;color:#7bb8ff}
+ul.todo .actions a.danger{color:#ff8078}
